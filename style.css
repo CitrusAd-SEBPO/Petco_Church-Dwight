@@ -459,14 +459,14 @@ body {
 
   .citrusX-tab-cardBody p.citrusX-category-details{
     text-align: center;
-    /* -webkit-line-clamp: unset;
-    line-clamp: unset; */
+    -webkit-line-clamp: unset;
+    line-clamp: unset;
   }
   
   .citrusX-tab-card p {
     font-family: "PetcoCircularTT-Regular", arial !important;
     color: #333333;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 22px;
     text-align: left;
     /* padding: 20px 0 20px; */
