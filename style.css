@@ -825,7 +825,7 @@ body {
 
 .citrusX__card__item_details h2 {
   font-family: "PetcoCircularTT-Bold", arial !important;
-  font-size: 20px;
+  font-size: 18px;
   line-height: initial;
   font-weight: 900;
   color: #000000;
@@ -835,7 +835,7 @@ body {
 }
 
 .citrusX__card__item_details p {
-  width: 282px;
+  width: 250px;
   font-family: "PetcoCircularTT-Regular", arial !important;
   text-align: center;
   font-size: 16px;
@@ -869,9 +869,10 @@ body {
   margin-bottom: 20px;
 }
 
-.citrusX__footer p{
+.citrusX__footer p {
   text-align: center;
   font-size: 16px;
+  line-height: 22px!important;
   color: #000;
   font-family: "PetcoCircularTT-Regular", arial !important;
   line-height: initial;
