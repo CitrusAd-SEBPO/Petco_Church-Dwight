@@ -384,12 +384,12 @@ body {
   display: none;
 }
 
-.citrusX__wrapper {
+/* .citrusX__wrapper {
   width: 100%;
   max-width: 1440px;
   margin: auto;
   font-family: "PetcoCircularTT-Regular", arial !important;
-}
+} */
 
 
 .citrusX__sectionTitle {
@@ -463,12 +463,15 @@ body {
 .citrusX-tab-cardBody h3 {
   text-align: center;
   padding-top: 20px;
+  font-size: 18px;
+  font-family: "PetcoCircularTT-Bold", arial !important;
 }
 
 .citrusX-tab-cardBody p.citrusX-category-details {
   text-align: center;
   -webkit-line-clamp: unset;
   line-clamp: unset;
+  color: #000;
 }
 
 .citrusX-tab-card p {
@@ -823,7 +826,7 @@ body {
   background-color: #f1dbb1;
 }
 
-.citrusX__card__item_details h2 {
+.citrusX__card__item_details h3 {
   font-family: "PetcoCircularTT-Bold", arial !important;
   font-size: 18px;
   line-height: initial;
