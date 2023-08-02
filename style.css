@@ -712,7 +712,7 @@ body {
 
 .citrusX__groupProductShotImage img {
   max-height: 144px;
-  padding: 20px 0;
+  padding-bottom: 30px;
 }
 
 .groupProductCTA {
@@ -732,16 +732,17 @@ body {
 }
 
 .groupCtaDimention p {
+  font-size: 20px;
   line-height: 18px;
   font-family: "PetcoCircularTT-Bold", arial !important;
   color: #001952;
-  margin-top: 0;
+  margin: 0;
   text-decoration: underline;
 }
 
 .groupCtaArrow p {
   font-size: 34px;
-  margin-top: 0;
+  margin: 0;
 }
 
 /* custom css */
