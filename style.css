@@ -868,6 +868,9 @@ body {
 
 /* --------------------------- End Arm & Hammer commitments -----------------------------> */
 /* --------------------------- Footer Start -----------------------------> */
+.citrusX__footer{
+  padding-bottom: 35px;
+}
 .citrusX__footer .citrusX__common_btn{
   margin-bottom: 20px;
 }
