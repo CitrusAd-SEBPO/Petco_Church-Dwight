@@ -27,6 +27,9 @@
             576: {
               perPage: 1,
             },
+            768: {
+              perPage: 3,
+            },
             991: {
               perPage: 3,
             },
@@ -35,6 +38,11 @@
             },
             1024: {
               perPage: 4,
+              gap:40,
+            },
+            1100: {
+              perPage: 4,
+              gap:60,
             },
             1200: {
               perPage: 5,

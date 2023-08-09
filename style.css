@@ -31,6 +31,10 @@ body {
   padding: 0;
 }
 
+.citrusX__section-gap {
+  padding-bottom: 40px;
+}
+
 .citrusX__desktop-version {
   display: block;
 }
@@ -428,8 +432,8 @@ body {
 
 .citrusX__tab-area {
   overflow: hidden;
-  padding-top: 35px;
-  padding-bottom: 26px;
+  /* padding-top: 35px;
+  padding-bottom: 26px; */
 }
 
 .citrusX__tab-container {
@@ -472,6 +476,7 @@ body {
   -webkit-line-clamp: unset;
   line-clamp: unset;
   color: #000;
+  margin-bottom: 20px;
 }
 
 .citrusX-tab-card p {
@@ -652,8 +657,12 @@ body {
     width: max-content;
     margin: 0 auto 20px;
   } */
+  #citrusX-Scroller-Product {
+    padding-left: 50px;
+  }
+
   #citrusX-Arm_Hammer_Scroller-Product {
-    padding-left: 20px;
+    padding-left: 65px;
   }
 
   .citrusX__tab-container {
@@ -681,6 +690,14 @@ body {
   .citrusXArm_Hammer_Scroller__Product {
     max-width: 195px;
   }
+
+  #citrusX-Scroller-Product {
+    padding-left: 0;
+  }
+
+  #citrusX-Arm_Hammer_Scroller-Product {
+    padding-left: 10px;
+  }
 }
 
 @media screen and (max-width:375px) {
@@ -706,7 +723,7 @@ body {
   margin: auto;
 }
 
-.citrusX__groupProductShotImage{
+.citrusX__groupProductShotImage {
   padding: 0 5px;
 }
 
@@ -771,7 +788,7 @@ body {
   width: 1124px;
   max-width: 100%;
   margin: auto;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
 }
 
 
@@ -855,6 +872,15 @@ body {
 
 }
 
+/* @media screen and (max-width:1024px) {
+  .citrusX__card__row {
+    gap: 0;
+    max-width: 100%;
+    justify-content: center;
+    gap: 6px;
+  }
+} */
+
 @media screen and (max-width:375px) {
   .citrusX__card__row {
     justify-content: start;
@@ -869,23 +895,25 @@ body {
 
 /* --------------------------- End Arm & Hammer commitments -----------------------------> */
 /* --------------------------- Footer Start -----------------------------> */
-.citrusX__footer{
+.citrusX__footer {
   padding-bottom: 35px;
 }
-.citrusX__footer .citrusX__common_btn{
+
+.citrusX__footer .citrusX__common_btn {
   margin-bottom: 20px;
 }
 
 .citrusX__footer p {
   text-align: center;
   font-size: 16px;
-  line-height: 22px!important;
+  line-height: 22px !important;
   color: #000;
   font-family: "PetcoCircularTT-Regular", arial !important;
   line-height: initial;
 }
 
-.citrusX__footer p span{
+.citrusX__footer p span {
   font-family: "PetcoCircularTT-Bold", arial !important;
 }
+
 /* --------------------------- End Footer -----------------------------> */
