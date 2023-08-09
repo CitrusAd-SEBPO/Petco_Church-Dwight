@@ -886,6 +886,7 @@ body {
     justify-content: start;
     gap: 30px;
     padding-left: 10px;
+    width: 1030px;
   }
 
   .citrusX__card__item {
