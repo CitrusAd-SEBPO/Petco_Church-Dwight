@@ -3,7 +3,7 @@
    --------------------------*/
 // tab  carouseljs
 // initialize product scroller
-advanceArrowsArmHammerScroller("citrusX__armHammer_scroller");
+advanceArrowsArmHammerScroller("citrus__churchDwight__armHammer_scroller");
 function advanceArrowsArmHammerScroller(idx) {
   var splideElement = "#" + idx;
   var splideDefaultOptions = {
@@ -71,12 +71,12 @@ function advanceArrowsArmHammerScroller(idx) {
 /* ************************************************************************************** */
 //for tab sweater & loader added
 document.addEventListener("DOMContentLoaded", function () {
-  filterArm_Hammer_Products("citrusX__armHammer_scroller");
+  filterArm_Hammer_Products("citrus__churchDwight__armHammer_scroller");
 });
 // for dog filter function
 function filterArm_Hammer_Products(c) {
   var x, i;
-  x = document.getElementsByClassName("citrusX__armHammer_scroller__product");
+  x = document.getElementsByClassName("citrus__churchDwight__armHammer_scroller__product");
   if (c == "all") c = "";
   for (i = 0; i < x.length; i++) {
     RemoveClass(x[i], "citrusTabShow");

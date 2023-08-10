@@ -4,7 +4,7 @@
          --------------------------*/
       // tab  carouseljs
       // initialize product scroller
-      advanceArrowsScroller("citrusX__type-item");
+      advanceArrowsScroller("citrus__churchDwight__type-item");
       function advanceArrowsScroller(idx) {
         var splideElement = "#" + idx;
         var splideDefaultOptions = {
@@ -68,12 +68,12 @@
       /* ************************************************************************************** */
       //for tab sweater & loader added
       document.addEventListener("DOMContentLoaded", function () {
-        filterDogCatProducts("citrusX__type-item");
+        filterDogCatProducts("citrus__churchDwight__type-item");
       });
       // for dog filter function
       function filterDogCatProducts(c) {
         var x, i;
-        x = document.getElementsByClassName("citrusX__product-item");
+        x = document.getElementsByClassName("citrus__churchDwight__product-item");
         if (c == "all") c = "";
         for (i = 0; i < x.length; i++) {
           RemoveClass(x[i], "citrusTabShow");
