@@ -35,6 +35,8 @@ body {
   padding-bottom: 40px;
 }
 
+
+/* Start Hero Section */
 .citrusX__desktop-version {
   display: block;
 }
@@ -42,10 +44,6 @@ body {
 .citrusX__mobile-version {
   display: none;
 }
-
-/* .citrusX__carousel {
-    background-color: #081946;
-} */
 
 .citrusX__carousel_inner {
   object-fit: cover;
@@ -59,7 +57,6 @@ body {
 
 .citrusX__carousel_background_image {
   object-fit: cover;
-  /* background-color: #081946; */
 }
 
 .citrusX__carousel_copy {
@@ -158,15 +155,6 @@ body {
     width: 130px;
   }
 
-  /* .citrusX__item_details h1 {
-        font-size: 22px;
-        line-height: 21.5px;
-    }
-
-    .citrusX__item_details h1 span {
-        font-size: 17.5px;
-    } */
-
   .citrusX__item_details p {
     font-size: 14px;
     width: 240px;
@@ -186,19 +174,10 @@ body {
     padding: 0 2rem;
   }
 
-  /* .citrusX__item_details h1 {
-        font-size: 18px;
-        line-height: 18px;
-    } */
-
   .citrusX__item_details h1 {
     font-size: 24px;
     line-height: 24px;
   }
-
-  /* .citrusX__item_details h1 span {
-        font-size: 14.5px;
-    } */
 
   .citrusX__item_details h1 span {
     font-size: 18.5px;
@@ -225,7 +204,16 @@ body {
 
 @media screen and (max-width:768px) {
   .citrusX__item_details h1 {
-    line-height: 20px;
+    line-height: 17px;
+    font-size: 20px;
+  }
+
+  .citrusX__item_details h1 span {
+    font-size: 15.5px;
+  }
+
+  .citrusX__item_details p {
+    line-height: 15px;
   }
 }
 
@@ -242,10 +230,6 @@ body {
     height: unset;
   }
 
-  /* .citrusX__carousel_background_image img {
-        padding-top: 40%;
-    } */
-
   .citrusX__carousel_copy {
     height: unset;
     align-items: center;
@@ -255,7 +239,6 @@ body {
   }
 
   .citrusX__item_image img {
-    /* width: 87px; */
     display: none;
   }
 
@@ -264,8 +247,6 @@ body {
     width: 500px;
     font-size: 36px;
     line-height: 42px;
-    /* line-height: 42px; */
-    /* padding: 25px 0; */
   }
 
   .citrusX__item_details h1 span {
@@ -299,7 +280,6 @@ body {
   }
 }
 
-
 @media screen and (max-width:680px) {
 
   .citrusX__carousel_copy {
@@ -331,7 +311,6 @@ body {
 
   .citrusX__item_details h1 {
     line-height: 28px;
-    /* text-align: center; */
     width: 400px;
     font-size: 24px;
   }
@@ -383,18 +362,10 @@ body {
 
 
 /* universal styles */
-.citrusXScroller__ProductCarousel-wrapper::-webkit-scrollbar,
-.citrusXArm_Hammer_Scroller__ProductCarousel-wrapper::-webkit-scrollbar {
+.citrusX__product-itemCarousel-wrapper::-webkit-scrollbar,
+.citrusX__armHammer_scroller__productCarousel-wrapper::-webkit-scrollbar {
   display: none;
 }
-
-/* .citrusX__wrapper {
-  width: 100%;
-  max-width: 1440px;
-  margin: auto;
-  font-family: "PetcoCircularTT-Regular", arial !important;
-} */
-
 
 .citrusX__sectionTitle {
   margin: 0;
@@ -406,34 +377,18 @@ body {
   padding-bottom: 30px !important;
 }
 
-/* .citrusX__sectionTitle {
-    padding: 20px 1px;
-    font-family: "PetcoCircularTT-Bold", arial !important;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 24px;
-    text-align: center;
-  } */
-
 /* Product Carousel section */
 /* tab button style */
-.citrusXScroller__ProductCarousel-wrapper,
-.citrusXArm_Hammer_Scroller__ProductCarousel-wrapper {
+.citrusX__product-itemCarousel-wrapper,
+.citrusX__armHammer_scroller__productCarousel-wrapper {
   width: 100%;
   max-width: 1273px;
   margin: auto;
   overflow-x: auto;
 }
 
-.citrusXDogCat_ID {
-  width: 100%;
-  overflow-x: auto;
-}
-
 .citrusX__tab-area {
   overflow: hidden;
-  /* padding-top: 35px;
-  padding-bottom: 26px; */
 }
 
 .citrusX__tab-container {
@@ -446,8 +401,8 @@ body {
   display: none;
 }
 
-.citrusXScroller__Product,
-.citrusXArm_Hammer_Scroller__Product {
+.citrusX__product-item,
+.citrusX__armHammer_scroller__product {
   max-width: 195px;
   width: 100% !important;
   margin: 0px 9px;
@@ -485,7 +440,6 @@ body {
   font-size: 16px;
   line-height: 22px;
   text-align: left;
-  /* padding: 20px 0 20px; */
   margin: 20px 0 10px;
   text-decoration: none;
   overflow: hidden;
@@ -498,7 +452,7 @@ body {
   /*standard size is 4em*/
 }
 
-.citrusXScroller__ProductCTA {
+.citrusX__product-itemCTA {
   border: 0;
   width: 100%;
   background: none;
@@ -512,7 +466,7 @@ body {
   margin: auto;
 }
 
-.citrusXArm_Hammer_Scroller__ProductCTA {
+.citrusX__armHammer_scroller__productCTA {
   border: 0;
   padding-left: 0;
   background: none;
@@ -525,8 +479,7 @@ body {
   cursor: pointer;
 }
 
-.citrusX__Scroller__Products,
-.citrusX__Arm_Hammer_Scroller__Products {
+.citrusX__scroller__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -547,45 +500,8 @@ body {
   display: block;
 }
 
-.citrusXDogCat__tab_item {
-  text-transform: uppercase;
-  padding: 12px 20px;
-  margin: 0px 10px;
-  font-size: 14px;
-  text-decoration: none;
-  background-color: #ffffff;
-  border: none;
-  border-bottom: 10px solid #fff;
-  cursor: pointer;
-  color: #6e6b6b;
-  font-family: "PetcoCircularTT-Regular", arial !important;
-  font-weight: 700;
-  line-height: 1.3;
-  text-align: center;
-}
-
 .citrusX__wrapper button {
   font-family: "PetcoCircularTT-Regular", arial !important;
-}
-
-.citrusXDogCat__tab_item.citrusXDogCat__active_tab {
-  color: #001952;
-  border-bottom: 10px solid #001952;
-  border-radius: 0;
-}
-
-.citrusXDogCat_ID {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #021b4e;
 }
 
 .citrusX__common_btn {
@@ -622,15 +538,28 @@ body {
   display: none;
 }
 
+@media screen and (min-width:1440px) {
+  #citrusX__type-item .splide__arrow {
+    display: none;
+  }
+}
+
 @media all and (max-width: 1301px) {
   .citrusX__tab-container {
     width: 90%;
   }
 }
 
-@media screen and (min-width: 922px) and (max-width: 1120px) {
+@media screen and (max-width: 1120px) {
   .citrusX__common_btn {
     width: 170px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .citrusX__common_btn {
+    width: 130px;
     height: 40px;
   }
 }
@@ -653,17 +582,17 @@ body {
   }
 
   /* product section */
-  /* .citrusXDogCat_ID {
-    width: max-content;
-    margin: 0 auto 20px;
-  } */
-  #citrusX-Scroller-Product {
-    padding-left: 50px;
+  #citrusX__type-item {
+    /* padding-left: 50px; */
+    width: 95%;
+    margin: auto;
   }
 
-  #citrusX-Arm_Hammer_Scroller-Product {
-    padding-left: 65px;
-  }
+  #citrusX__armHammer_scroller {
+    /* padding-left: 65px; */
+    width: 90%;
+    margin: auto;
+}
 
   .citrusX__tab-container {
     width: 100%;
@@ -686,31 +615,32 @@ body {
 
 @media all and (max-width: 575px) {
 
-  .citrusXScroller__Product,
-  .citrusXArm_Hammer_Scroller__Product {
+  .citrusX__product-item,
+  .citrusX__armHammer_scroller__product {
     max-width: 195px;
   }
 
-  #citrusX-Scroller-Product {
+  #citrusX__type-item {
     padding-left: 0;
+    width: 100%;
   }
 
-  #citrusX-Arm_Hammer_Scroller-Product {
+  #citrusX__armHammer_scroller {
     padding-left: 10px;
+    width: unset;
   }
 }
 
 @media screen and (max-width:375px) {
-  #citrusX-Arm_Hammer_Scroller-Product {
+  #citrusX__armHammer_scroller {
     padding-left: 12px;
   }
 }
 
 /* Group Product CSS */
 
-
 .citrusX__groupProductShot {
-  border: 1px solid #001952;
+  border: 1px solid #333333;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -823,22 +753,21 @@ body {
   margin: auto;
 }
 
-#citrusX_Kitty_Krew {
+#citrusX_kitty_krew {
   width: 248px;
 }
 
-#citrusX_Pet-friendly {
+#citrusX_pet-friendly {
   width: 315px;
 }
 
-#citrusX_Feline_Generous {
+#citrusX_feline_generous {
   width: 189.5px;
 }
 
 .citrusX__card__item_details {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
   height: 205px;
   background-color: #f1dbb1;
@@ -872,14 +801,13 @@ body {
 
 }
 
-/* @media screen and (max-width:1024px) {
+@media only screen and (width:1024px) {
   .citrusX__card__row {
-    gap: 0;
-    max-width: 100%;
-    justify-content: center;
-    gap: 6px;
+    width: 1020px;
+    gap: 3px;
   }
-} */
+
+}
 
 @media screen and (max-width:375px) {
   .citrusX__card__row {

@@ -4,7 +4,7 @@
          --------------------------*/
       // tab  carouseljs
       // initialize product scroller
-      advanceArrowsScroller("citrusX-Scroller-Product");
+      advanceArrowsScroller("citrusX__type-item");
       function advanceArrowsScroller(idx) {
         var splideElement = "#" + idx;
         var splideDefaultOptions = {
@@ -30,6 +30,13 @@
             768: {
               perPage: 3,
             },
+            820: {
+              gap:60
+            },
+            912: {
+              perPage: 3,
+              gap:90
+            },
             991: {
               perPage: 3,
             },
@@ -47,6 +54,9 @@
             1200: {
               perPage: 5,
             },
+            1280: {
+              gap:40,
+            },
             1440: {
               perPage: 6,
             },
@@ -58,12 +68,12 @@
       /* ************************************************************************************** */
       //for tab sweater & loader added
       document.addEventListener("DOMContentLoaded", function () {
-        filterDogCatProducts("citrusX-Scroller-Product");
+        filterDogCatProducts("citrusX__type-item");
       });
       // for dog filter function
       function filterDogCatProducts(c) {
         var x, i;
-        x = document.getElementsByClassName("citrusXScroller__Product");
+        x = document.getElementsByClassName("citrusX__product-item");
         if (c == "all") c = "";
         for (i = 0; i < x.length; i++) {
           RemoveClass(x[i], "citrusTabShow");
