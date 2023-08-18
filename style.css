@@ -71,7 +71,7 @@ body {
 
 .citrus__churchDwight__item_image img {
   width: 186px;
-  padding: 0 3rem;
+  padding: 0 1rem;
 }
 
 .citrus__churchDwight__carouselDetails {
@@ -98,9 +98,9 @@ body {
   font-size: 16px;
   width: 603px;
   color: white;
-  padding-top: 10px;
-  padding-bottom: 25px;
+  padding: 5px 0 25px 0;
   font-family: "PetcoCircularTT-Regular", arial !important;
+  line-height: 16px;
 }
 
 .citrus__churchDwight__heroCTa_container {
@@ -139,8 +139,8 @@ body {
   .citrus__churchDwight__item_details p {
     font-size: 14px;
     width: 230px;
-    padding-top: 10px;
-    padding-bottom: 15px;
+    padding: 5px 0 10px;
+    line-height: 17px;
   }
 
   .citrus__churchDwight__heroCTa {
@@ -152,14 +152,14 @@ body {
 
 @media screen and (max-width:1024px) {
   .citrus__churchDwight__item_image img {
-    width: 130px;
+    width: 150px;
+    padding: 0 0.5rem;
   }
 
   .citrus__churchDwight__item_details p {
     font-size: 14px;
     /* width: 240px; */
-    padding-top: 5px;
-    padding-bottom: 10px;
+    padding: 5px 0 10px;
   }
 
   .citrus__churchDwight__heroCTa {
@@ -170,8 +170,8 @@ body {
 
 @media screen and (max-width:921px) {
   .citrus__churchDwight__item_image img {
-    width: 100px;
-    padding: 0 2rem;
+    width: 120px;
+    padding: 0 0.5rem;
   }
 
   .citrus__churchDwight__item_details h1 {
@@ -186,6 +186,7 @@ body {
   .citrus__churchDwight__item_details p {
     font-size: 12px;
     width: 170px;
+    padding: 5px 0;
   }
 
   .citrus__churchDwight__heroCTa {
@@ -213,7 +214,7 @@ body {
   }
 
   .citrus__churchDwight__item_details p {
-    line-height: 15px;
+    line-height: 13px;
   }
 }
 
@@ -432,6 +433,7 @@ body {
   line-clamp: unset;
   color: #000;
   margin-bottom: 20px;
+  font-weight: normal;
 }
 
 .citrus__churchDwight-tab-card p {
@@ -829,6 +831,7 @@ body {
 /* --------------------------- Footer Start -----------------------------> */
 .citrus__churchDwight__footer {
   padding-bottom: 35px;
+  text-align: center;
 }
 
 .citrus__churchDwight__footer .citrus__churchDwight__common_btn {
